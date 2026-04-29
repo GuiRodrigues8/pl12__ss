@@ -1,0 +1,8 @@
+#!/home/gfr04/Desktop/MEI/1ano/2semestre/ss/pl/exercicioPL12/secure-api-ci/pl12/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pytest import console_main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(console_main())
